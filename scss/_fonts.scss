@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+$fontMain : 'Poppins', sans-serif;;
+$fontSizeSmall:0.8em;
+$fontSizeMedium:1.5em;
+$fontSizeBig:2rem;
+$fontSizeVBig:4rem;
+$fontBold:400;
+$fontThin:300;
+$fontColorWhite: white;
+
+.font__blue{
+    font-size: $fontSizeMedium;
+    color: #00bec9;
+}
+.font__vbig{
+    font-size: $fontSizeVBig;
+}
+.font_big{
+    font-size: $fontSizeBig;
+}
+.font__medium{
+    font-size: $fontSizeMedium;
+}
+.font__small{
+    font-size: $fontSizeSmall;
+}
+
+  

@@ -1,0 +1,112 @@
+.bg-yellow{
+    background-color: $bg-yellow;
+}
+.bt_search{
+    outline: none;
+    background-color: $bg-yellow;
+    border: 0;
+    box-shadow: 0px 10px 10px -6px rgb(202, 138, 0);
+}
+
+.container{
+    align-items: center;
+}
+.section__font--white{
+    font-family: $fontMain;
+    text-align: $txtCenter ;
+    color: $bg-white;
+}   
+.section__font--black{
+    font-family: $fontMain;
+    text-align: $txtCenter ;
+    color: $bg-dark;
+}   
+
+.font__new{
+    font-family: $fontMain;
+    text-align: $txtCenter ;
+    color: $bg-white;
+}
+
+
+        .dos__video{
+           box-shadow: -35px 35px 0 0 $bg-yellow;
+        }
+        //TRES
+        .tres__titulo{
+            padding-top: 3rem;
+            padding-top: 2rem;
+        }
+            .tres__titulo__secundario{
+                padding-bottom: 3rem;
+            }
+        .tres__img{
+            border-style: solid;
+            border-width: 8px;
+            border-color: $bg-marfil;
+            margin-bottom: $margin;
+        }
+        .tres_news{
+            padding-bottom: 3rem;
+        }
+        //CUATRO
+        .cuatro__button{
+            float: right;
+        }
+        .cuatro__video{
+            box-shadow: 35px 35px 0 0 $bg-yellow;
+        }
+        //CINCO
+        .cinco__button{
+            padding-top: $padding;
+            padding-bottom: $padding;
+            font-family: $fontMain;
+            border-color: $bg-buttons;
+            color: $bg-white;
+            background-color: $bg-buttons;
+            border-style: solid;
+            border-radius: 2rem;
+            width: $w-50;
+        }
+            .cinco__button:hover{
+                padding-top: $padding;
+                padding-bottom: $padding;
+                font-family: $fontMain;
+                border-color: $bg-buttons;
+                color: $bg-white;
+                background-image: linear-gradient(to right, #35c6ff, $bg-buttons , $bg-buttons, #35c6ff);
+                border-style: solid;
+                border-radius: 2rem;
+                width: $w-50;
+            }
+
+        //SIETE
+        .siete{
+            padding-top: 10rem;
+            padding-bottom: 10rem;
+        }
+            .siete__bg__img {
+                background-image: url(../media/siete_bg.png);
+                background-size: cover; 
+                background-repeat: no-repeat;
+                background-position: center center ;
+            }
+            .siete__counter{
+                 font-style: $fontMain;
+                font-size: 5rem;
+            }
+        
+        //OCHO
+        .ocho__post{
+            padding: $padding;
+            text-align: left;
+            border-color: $bg-white  $bg-shadow $bg-shadow;
+            border-width: 1px 1px 1px;
+            border-style: solid solid solid;
+        }           
+            .ocho__post--sb{
+            padding: $padding;
+            text-align: left;
+            }           
+
+  

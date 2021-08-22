@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+.font__blue {
+  font-size: 1.5em;
+  color: #00bec9; }
+
+.font__vbig {
+  font-size: 4rem; }
+
+.font_big {
+  font-size: 2rem; }
+
+.font__medium {
+  font-size: 1.5em; }
+
+.font__small {
+  font-size: 0.8em; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+h1, h2, h3, h4, h5, p {
+  font-family: "Poppins", sans-serif; }
+
+.tituloPrincipal {
+  text-align: center; }
+
+.breadcrum__bg {
+  background-color: #FFFFFF; }
+
+img {
+  opacity: 1; }
+
+h1 {
+  font-size: 2em; }
+
+h2 {
+  font-size: 1.5em; }
+
+h3 {
+  font-size: 1.2em; }
+
+img {
+  width: 100%; }
+
+.rigth__font {
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+  text-align: right; }
+
+.rigth__font--white {
+  font-family: "Poppins", sans-serif;
+  color: #FFFFFF;
+  text-align: right; }
+
+.left__font {
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+  text-align: left; }
+
+.left__font--white {
+  font-family: "Poppins", sans-serif;
+  color: #FFFFFF;
+  text-align: left; }
+
+.social__media__button {
+  border-color: #fcc302;
+  background-color: #fcc302;
+  border-style: solid;
+  border-radius: 2rem;
+  color: #FFFFFF; }
+
+.social__media__button:hover {
+  color: #00bec9; }
+
+.social__media__button--white {
+  border-color: #FFFFFF;
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-radius: 2rem;
+  color: #000000; }
+
+.social__media__button--white:hover {
+  color: #00bec9; }
+
+#scroll {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  background-color: #3498db;
+  text-indent: -9999px;
+  display: none;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  border-radius: 60px; }
+
+#scroll span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -8px;
+  margin-top: -12px;
+  height: 0;
+  width: 0;
+  border: 8px solid transparent;
+  border-bottom-color: #ffffff; }
+
+#scroll:hover {
+  background-color: #e7cd3c;
+  opacity: 1;
+  filter: "alpha(opacity=100)";
+  -ms-filter: "alpha(opacity=100)"; }
+
+nav {
+  background-color: #daac00;
+  font-size: 1.5em;
+  font-style: "Poppins", sans-serif;
+  text-decoration: none;
+  color: white; }
+
+.btn_search {
+  background-color: #00bec9;
+  border-style: none; }
+
+input::placeholder {
+  color: #FFFFFF; }
+
+.bg-yellow {
+  background-color: #fcc302; }
+
+.bt_search {
+  outline: none;
+  background-color: #fcc302;
+  border: 0;
+  box-shadow: 0px 10px 10px -6px #ca8a00; }
+
+.container {
+  align-items: center; }
+
+.section__font--white {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: #FFFFFF; }
+
+.section__font--black {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: #000000; }
+
+.font__new {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: #FFFFFF; }
+
+.dos__video {
+  box-shadow: -35px 35px 0 0 #fcc302; }
+
+.tres__titulo {
+  padding-top: 3rem;
+  padding-top: 2rem; }
+
+.tres__titulo__secundario {
+  padding-bottom: 3rem; }
+
+.tres__img {
+  border-style: solid;
+  border-width: 8px;
+  border-color: #ffffffe5;
+  margin-bottom: 1rem; }
+
+.tres_news {
+  padding-bottom: 3rem; }
+
+.cuatro__button {
+  float: right; }
+
+.cuatro__video {
+  box-shadow: 35px 35px 0 0 #fcc302; }
+
+.cinco__button {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-family: "Poppins", sans-serif;
+  border-color: #00bec9;
+  color: #FFFFFF;
+  background-color: #00bec9;
+  border-style: solid;
+  border-radius: 2rem;
+  width: 50%; }
+
+.cinco__button:hover {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-family: "Poppins", sans-serif;
+  border-color: #00bec9;
+  color: #FFFFFF;
+  background-image: linear-gradient(to right, #35c6ff, #00bec9, #00bec9, #35c6ff);
+  border-style: solid;
+  border-radius: 2rem;
+  width: 50%; }
+
+.siete {
+  padding-top: 10rem;
+  padding-bottom: 10rem; }
+
+.siete__bg__img {
+  background-image: url(../media/siete_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+.siete__counter {
+  font-style: "Poppins", sans-serif;
+  font-size: 5rem; }
+
+.ocho__post {
+  padding: 1rem;
+  text-align: left;
+  border-color: #FFFFFF #b3b3b3 #b3b3b3;
+  border-width: 1px 1px 1px;
+  border-style: solid solid solid; }
+
+.ocho__post--sb {
+  padding: 1rem;
+  text-align: left; }
+
+footer {
+  background-color: #343434; }
+
+.footer_bt_search {
+  color: #FFFFFF; }

@@ -1,0 +1,17 @@
+nav{
+    background-color: $bg-yellowDark;
+    font-size: $fontSizeMedium;
+    font-style: $fontMain;
+    text-decoration: none; 
+    color:white;
+}
+    
+    .btn_search{
+        background-color: $bg-buttons;
+        border-style: none;
+    }
+
+    input::placeholder {
+        color: $bg-white;
+      }
+
